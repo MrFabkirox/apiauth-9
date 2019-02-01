@@ -24,5 +24,4 @@ yarn-error.log*
 
 # variables
 nodemon.json
-# server/configuration
-
+server/configuration/*
