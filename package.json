@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon server/apiauth9.js",
-    "test": "mocha --exit"
+    "test": "mocha __tests__/**/* --exit"
   },
   "author": "",
   "license": "ISC",
