@@ -1,0 +1,17 @@
+version: '3'
+services:
+  app:
+    container_name: apiauth-8-18-test-ok
+    image: fabriceesope/apiauth-8-18testok
+    restart: always
+    build: .
+    ports:
+      - '80:3000'
+    links:
+      - mongo
+  mongo:
+    container_name: mongo
+    image: mongo
+    ports:
+- '27017:27017'
+
